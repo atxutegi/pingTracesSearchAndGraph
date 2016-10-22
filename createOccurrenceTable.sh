@@ -1,6 +1,8 @@
 #!/bin/bash
-days="2016-10-02 2016-10-03 2016-10-04 2016-10-05 2016-10-06 2016-10-07 2016-10-08 2016-10-09 2016-10-10"
-echo "$days"
+#days="2016-10-02 2016-10-03 2016-10-04 2016-10-05 2016-10-06 2016-10-07 2016-10-08 2016-10-09 2016-10-10"
+# Execute bash createOccurrenceTable.sh "2016-10-11;2016-10-12" (notice semicolon)
+days=`echo "$1" | sed 's/\;/ /'`
+#echo "$days"
 num_operators=13
 echo "Orange.Telia.TelenorS.YOIGO.WIND.3\sSE.voda\sES.voda\sIT.TIM.NetCom.Telenor,.460\s99.Telenor\sSE," > operators
 echo "Orange.Telia.TelenorS.YOIGO.WIND.3\\\sSE.voda\\\sES.voda\\\sIT.TIM.NetCom.Telenor,.460\\\s99.Telenor\\\sSE," > operators2
