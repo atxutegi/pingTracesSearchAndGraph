@@ -1,9 +1,11 @@
+function OperatorBoxPlot_medStd_variousDays (days)
+% Execute as OperatorBoxPlot_medStd_variousDays ({'2016-10-02';'2016-10-03';'2016-10-04';'2016-10-05';'2016-10-06';'2016-10-07';'2016-10-08';'2016-10-09';'2016-10-10'})
 operators={'Orange';'Telia';'YOIGO';'NetCom';'TelenorS';'Telenor,';'3\sSE';'Telenor\sSE,';'TIM';'WIND';'voda\sES';'voda\sIT'};
 operators2={'Orange';'Telia';'YOIGO';'NetCom';'TelenorS';'Telenor';'3 SE';'Telenor SE';'TIM';'WIND';'voda ES';'voda IT'};
 pos50 = [1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50];
 position1=[1 5 9];
 position2=[4 8 12];
-days={'2016-10-02';'2016-10-03';'2016-10-04';'2016-10-05';'2016-10-06';'2016-10-07';'2016-10-08';'2016-10-09';'2016-10-10'};
+%days={'2016-10-02';'2016-10-03';'2016-10-04';'2016-10-05';'2016-10-06';'2016-10-07';'2016-10-08';'2016-10-09';'2016-10-10'};
 maxSize=86400*size(days,1);
 names={'PingBoxplot1_multipleDays';'PingBoxplot2_multipleDays';'PingBoxplot3_multipleDays'};
 for round=1:size(names,1)
