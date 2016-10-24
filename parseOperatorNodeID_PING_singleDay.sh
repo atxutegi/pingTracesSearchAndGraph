@@ -10,7 +10,7 @@ do
     echo "$i"
     echo "$name" >> outputPING.txt
     #cat *_ping.csv | grep $name | cut -d, -f1 | uniq | sed 1d >>  outputPING.txt
-    nodes=`cat *_ping.csv | grep $name | cut -d, -f1 | uniq | sed 1d`
+    nodes=`cat *_ping.csv | grep $name | cut -d, -f1 | uniq`
     echo "$nodes" >> outputPING.txt
     numNodes=`echo "$nodes" | wc -l`
     echo "num of nodes $numNodes"
