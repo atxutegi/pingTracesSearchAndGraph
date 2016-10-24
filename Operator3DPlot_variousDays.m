@@ -1,6 +1,6 @@
 function Operator3DPlot_variousDays (days)
 % Execute as Operator3DPlot_variousDays ({'2016-10-02';'2016-10-03';'2016-10-04';'2016-10-05';'2016-10-06';'2016-10-07';'2016-10-08';'2016-10-09';'2016-10-10'})
-operators={'Orange';'Telia';'YOIGO';'NetCom';'TelenorS';'Telenor';'3\sSE';'Telenor\sSE';'TIM';'WIND';'voda\sES';'voda\sIT'};
+operators={'Orange';'Telia';'YOIGO';'NetCom';'TelenorS';'Telenor,';'3\sSE';'Telenor\sSE,';'TIM';'WIND';'voda\sES';'voda\sIT'};
 operators2={'Orange';'Telia';'YOIGO';'NetCom';'TelenorS';'Telenor';'3 SE';'Telenor SE';'TIM';'WIND';'voda ES';'voda IT'};
 %position1=[1 5 9];
 %position2=[4 8 12];
